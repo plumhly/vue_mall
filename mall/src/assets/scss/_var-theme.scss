@@ -1,0 +1,61 @@
+// loading
+.van-loading--gradient-circle, .van-loading--spinner {
+  margin: 0 auto;
+}
+
+//tabbar 
+div.van-tabbar-item--active {
+  color: $red;
+}
+
+.van-tabbar-item__icon .van-icon {
+  font-size: 18px;
+}
+
+//按钮组
+a.van-goods-action__mini-btn i {
+  font-size: 22px;
+}
+
+.van-goods-action .van-button--bottom-action {
+  font-size: $font-size-normal;
+}
+
+.van-button--bottom-action.van-button--primary {
+  background-color: $red;
+}
+
+.van-button--danger {
+  background-color: $red;
+}
+
+.van-address-edit_buttons .van-button--primary {
+  background-color: $red;
+  border-color: $red;
+}
+
+
+//多选
+.van-checkbox__control:checked + i.van-icon-success {
+  background-color: $red;
+  border-color: $red;
+}
+
+//单选
+.van-radio i.van-icon-checked {
+  color: $red;
+}
+
+.payment .van-cell-group .van-radio__input {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+}
+
+.van-radio .van-radio__input {
+  height: 16px;
+}
+.van-radio i.van-icon {
+  font-size: 16px;
+}

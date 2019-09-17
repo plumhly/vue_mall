@@ -1,4 +1,6 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Vue from 'vue';
+import Router from 'vue-router';
 
-im
+export default new Router({
+  routes: []
+});
